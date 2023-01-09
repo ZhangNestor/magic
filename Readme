@@ -1,0 +1,6 @@
+###
+scripts for extract different types of novel AS positions.
+usage: perl A3findASpos.pl Example.bed Example_A3_strict.ioe A3ASpos
+Example.bed for total isoform information;
+Example_A3_strict.ioe from SUPPA output for A3 type position;
+A3ASpos for output file name; 
