@@ -1,6 +1,10 @@
 ###
-scripts for extract different types of novel AS positions.
+scripts to extract different types (A3, A5, AF, AL, SE, RI, MX) of novel AS positions.
 usage: perl A3findASpos.pl Example.bed Example_A3_strict.ioe A3ASpos
 Example.bed for total isoform information;
 Example_A3_strict.ioe from SUPPA output for A3 type position;
 A3ASpos for output file name; 
+
+scripts to extract all possible 9-amino acid sequences from splice junction amino acid sequences.
+usage: perl Format9AA.pl ExampleData4Format9AA OUT4neoantigenInfo OUT4neoantigen
+file OUT4newantigen used as input for neo-antigen prediction.
